@@ -1,0 +1,2297 @@
+#	ist nicht mehr AKTUELL(2018 stand)
+#	PAS - PlayAlertSound
+#
+#	 6 - very important Currency (auch RHOA and ROD) / standart sound !!! LAUT !!!
+#	 6 - 6 link hörbar und sichtbar / !!! LAUT !!!
+#
+#	 1 - important Currency / hörbar
+#	 1 - early 3l in RRR / S 300
+#	 1 - 5l so wie 6s / s 300
+#
+#	 2 - important Cards / sichbar hörbar (s100/s200/s300) 
+#
+#	 3 - Breach Splitter Chayula (sound für liga wichtige sachen vorher gesehen) / hörbar und sollte sichtbar sein
+#
+#	 5 - Unique Item drop / hörbar !!! 300
+#
+#	 4 - Wichtige Gems / hörbar normal umrandung als zusatz
+#
+#    7 - drop for important items / sichtbar hörbar (s 200)
+#
+#	 8 - map drop von yellow and red / sichtbar und hörbar (yellow 200 and red 300)
+#	 8 - drop for unique maps and map fragment / sichtbar(wird nach getragen) sichtbar (s 300)
+#	
+#	 9 - map drop white / sichbar und hörbar (white 100)
+#
+#	11 - ONLY Shard Currency DropSound / Hörbar(200) and Sichbar DarkBlue(trans) background
+#
+#
+#
+#
+#
+#
+#	15 - ALLES WAS DURCH FÄLLT // noch nicht überall eingetragen //
+#
+#	END PAS
+
+
+
+Show
+	Class Currency
+	BaseType "Mirror of Kalandra" "Mirror Shard"
+    SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 44
+	PlayAlertSound 6 300
+	
+Show
+	Class Currency
+	BaseType "Eternal Orb" "Divine Orb" "Exalted Orb" "Ancient Reliquary Key"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 6 300
+	SetFontSize 44
+
+	Show
+		Class Currency
+		BaseType "Exalted Shard"
+		SetTextColor 255 0 174
+		SetBorderColor 255 0 174
+		SetBackgroundColor 255 255 255 255
+		PlayAlertSound 6 300
+		SetFontSize 44
+		
+Show
+	Class Currency
+	BaseType "Regal Orb" "Chaos Orb" "Blessed Orb" "Orb of Scouring" "Orb of Alchemy" "Vaal Orb" "Cartographer's" "Blessing"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 1 300
+	SetFontSize 39
+	
+	Show
+		Class Currency
+		BaseType "Chaos Shard" "Regal Shard"
+		SetTextColor 255 0 174
+		SetBorderColor 255 0 174
+		SetFontSize 34
+		PlayAlertSound 11 200
+	
+Show
+	Class Currency
+	BaseType "Coin" 
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	SetFontSize 39
+	
+Show
+	Class Currency
+	BaseType "Orb of Annulment" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Engineer's Orb" "Ancient Orb"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	SetFontSize 39
+	
+	Show
+		Class Currency
+		BaseType "Ancient Shard" "Engineer's Shard" "Harbinger's Shard" "Horizon Shard" "Binding Shard" "Annulment Shard"
+		SetTextColor 255 0 174
+		SetBorderColor 255 0 174
+		SetFontSize 34
+		PlayAlertSound 11 200
+	
+Show
+	Class Currency
+	BaseType "Orb of Regret" "Orb of Fusing"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 1 300
+	SetFontSize 39
+	
+Show
+	Class Currency
+	BaseType "Glassblower's Bauble" "Gemcutter's Prism"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 1 300
+	SetFontSize 39
+	
+Show
+	Class Currency
+	BaseType "Orb of Transmutation"
+    DropLevel > 15
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 1 300
+	SetFontSize 39
+	
+Show
+	Class Currency
+	BaseType "Orb of Chance" "Orb of Augmentation" "Orb of Alteration"
+    DropLevel > 15
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 1 200
+	SetFontSize 39
+	
+Show
+    BaseType "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Xoph" "Vaal Breach"
+	SetTextColor 0 255 255
+	SetBorderColor 0 255 255
+	SetFontSize 32
+	
+Show
+    BaseType "Splinter of Chayula" 
+	SetTextColor 0 255 255
+	SetBorderColor 0 255 255
+	PlayAlertSound 3 300
+	SetFontSize 39
+	
+Show
+	Class Currency
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
+	DropLevel >= 77
+	SetTextColor 139 10 80
+	SetBorderColor 139 10 80
+	SetFontSize 32
+	
+Show
+	BaseType "Offering to the Goddess"
+	PlayAlertSound 16 300
+	SetBorderColor 255 0 174
+	SetFontSize 32
+	
+Show
+	Class "Incursion Item"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	PlayAlertSound 1 300
+	SetFontSize 39
+	
+#
+#	 NEW CLASSES / später genau zu ordnen
+#
+	
+Show
+	Class Piece
+	SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+	SetFontSize 36
+	
+Show
+	Class Pantheon Soul
+	SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+	SetFontSize 36
+	
+	
+Show
+	BaseType "Albino Rhoa Feather" "Fishing Rod"
+	SetBorderColor 128 255 128
+	PlayAlertSound 6 300
+	SetFontSize 44
+
+Show
+	Rarity > Rare
+	PlayAlertSound 5 300
+	SetBorderColor 255 0 174
+	SetFontSize 39
+
+	
+################
+
+Hide
+	BaseType "Necromancy Net" "Thaumaturgical Net" "Strong Steel Net"
+    SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+	SetFontSize 36
+	
+Hide
+	BaseType "Reinforced Steel Net" "Simple Steel Net" "Strong Iron Net" "Reinforced Iron Net" "Simple Iron Net" "Strong Rope Net" "Reinforced Rope Net" "Simple Rope Net"
+    SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+	SetFontSize 36
+
+################
+	
+#Quest Item
+#Shows quest items
+
+#Currency
+#Shows scrolls
+Hide
+    BaseType "Scroll of Wisdom"
+Show
+	BaseType "Portal Scroll"
+
+#Better Currency Highlight / Bucket for Currency
+Show
+    Class Currency
+    SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+	SetFontSize 36
+Show
+    Class Stackable Currency
+    SetTextColor 255 0 174
+    SetBorderColor 255 0 174
+	SetFontSize 36
+    
+
+#Shows all Gems (Support, active etc.)
+#Show
+#    Class Gems
+
+Show
+	BaseType "Enlighten" "Empower" "Enhance" "Item Quantity" "Portal"
+	SetBorderColor 0 128 128
+	PlayAlertSound 4 300
+	SetFontSize 34
+	
+Show
+	Class Gems
+	BaseType "Vaal"
+	SetBorderColor 0 128 128
+	SetFontSize 34
+	
+Show
+	Class Gems
+	BaseType "Added Chaos Damage"
+	SetBorderColor 0 128 128
+	SetFontSize 34
+
+#Gems
+#Highlights Quality Gems
+
+Show
+    Class Gems
+    Quality >= 10
+    SetBorderColor 0 128 128
+	SetFontSize 34
+
+#Flasks
+#Highlights Quality Flasks over 14%
+
+# chance flask
+Show
+    BaseType "Silver Flask" "Sapphire Flask"
+	Rarity Normal
+    SetTextColor 0 0 0 
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+	SetFontSize 32
+
+#need flask
+Show
+    BaseType "Quicksilver Flask" "Amethyst Flask" "Basalt Flask"
+	Rarity Normal
+    SetTextColor 0 0 0 
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+	SetFontSize 32
+	
+#see flask
+Show
+    BaseType "Topaz Flask" "Granite Flask" "Ruby Flask" "Sulphur Flask" "Diamond Flask"
+	Rarity Normal
+    SetTextColor 0 0 0 
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+	SetFontSize 32
+	
+	
+#RaceFlask
+#Flask
+
+	#Life
+	
+Show
+	BaseType "Small Life Flask"
+	DropLevel >= 0
+    ItemLevel <= 5
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+Show
+	BaseType "Medium Life Flask"
+	DropLevel >= 3
+    ItemLevel <= 9
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+Show
+	BaseType "Large Life Flask"
+	DropLevel >= 6
+    ItemLevel <= 16
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+Show
+	BaseType "Giant Life Flask"
+	DropLevel >= 24
+    ItemLevel <= 42
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+Show
+	BaseType "Hallowed Life Flask"
+	DropLevel >= 42
+    ItemLevel <= 60
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+Show
+	BaseType "Sanctified Life Flask"
+	DropLevel >= 50
+    ItemLevel <= 67
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+Show
+	BaseType "Divine Life Flask"
+	DropLevel >= 60
+    ItemLevel <= 70
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+	
+	#Mana
+	
+Show
+	BaseType "Small Mana Flask"
+	DropLevel >= 0
+    ItemLevel <= 5
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+Show
+	BaseType "Medium Mana Flask"
+	DropLevel >= 3
+    ItemLevel <= 9
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+Show
+	BaseType "Large Mana Flask"
+	DropLevel >= 6
+    ItemLevel <= 16
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+Show
+	BaseType "Greater Mana Flask"
+	DropLevel >= 12
+    ItemLevel <= 24
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+Show
+	BaseType "Giant Mana Flask"
+	DropLevel >= 24
+    ItemLevel <= 60
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128	
+Show
+	BaseType "Sanctified Mana Flask"
+	DropLevel >= 50
+    ItemLevel <= 67
+    SetBorderColor 255 0 174
+    SetBackgroundColor 0 236 255 128
+
+	
+#Quality Flask Hightlighting bigger 1 Quality
+	
+Show
+    Class Flask
+    Quality >= 10
+    SetBorderColor 0 236 255
+	SetFontSize 32
+	
+	
+
+#Sockets/Links
+#Highlights
+
+#Melee Early 3 link 
+Show
+    LinkedSockets 3
+	SocketGroup RRR
+    ItemLevel <= 15
+    SetBorderColor 255 255 255
+	PlayAlertSound 1 300
+	SetFontSize 32
+
+#Spell Early 3 link for FrostBolt or other Spells
+Show
+    LinkedSockets 3
+	SocketGroup BBG
+    ItemLevel <= 15
+    SetBorderColor 255 255 255
+	PlayAlertSound 1 300
+	SetFontSize 32	
+	
+Show
+    LinkedSockets 4
+    DropLevel >= 15
+    ItemLevel <= 45
+    SetBorderColor 255 255 255
+	SetFontSize 32
+	
+Show
+    LinkedSockets 5
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 255
+    PlayAlertSound 1 300
+	SetFontSize 34
+	
+#Highlights 6 links
+Show
+    LinkedSockets 6
+    SetTextColor 255 0 0
+    SetBorderColor 255 0 0
+    PlayAlertSound 6 300
+	SetFontSize 36
+
+#Highlights 6 sockets better
+Show
+    Sockets 6
+    SetTextColor 0 128 64
+    SetBorderColor 0 128 64
+    PlayAlertSound 1 300
+	SetFontSize 32
+
+#Highlights RGB items better
+Show
+	Width 2
+	Height <= 2
+    SocketGroup RGB
+    SetBorderColor 128 0 255
+	SetFontSize 32
+
+	
+	
+#Jewels
+#Highlights Jewels better
+Show
+    Class Abyss Jewel
+	Rarity Rare
+    SetTextColor 225 0 134 
+    SetBorderColor 225 0 134
+    SetBackgroundColor 150 150 0 
+    SetFontSize 36
+	
+Show
+    Class Abyss Jewel
+	Rarity Magic
+    SetTextColor 225 0 134 
+    SetBorderColor 225 0 134
+    SetBackgroundColor 0 0 150 
+    SetFontSize 36
+
+Show
+	Class Jewel
+	Rarity Rare
+    SetTextColor 225 0 134 
+    SetBorderColor 225 0 134
+    SetBackgroundColor 150 150 0 
+    SetFontSize 36
+	
+Show
+	Class Jewel
+	Rarity Magic
+    SetTextColor 225 0 134 
+    SetBorderColor 225 0 134
+    SetBackgroundColor 0 0 150 
+    SetFontSize 32
+	
+Show
+	Class Jewel
+	SetTextColor 225 0 134 
+    SetBorderColor 225 0 134
+    SetFontSize 32
+	
+Show
+	Class Abyss Jewel
+	SetTextColor 225 0 134 
+    SetBorderColor 225 0 134
+    SetFontSize 32
+	
+
+	
+	
+
+	#############################################################################################
+	#############################################################################################
+	#############################################################################################
+	###																						  ###
+	###		###          ###	           ####				 ######### 		 ###########	  ###
+	###		####        ####	          ######			############	############# 	  ###
+	###		#####      #####	         ###  ###			###		  ###	###				  ###
+	###		######    ######	        ###    ###			###		   ###	###				  ###
+	###		### ###  ### ###	       ###      ###			###		   ###	###				  ###
+	###		###  ######  ###	      ###        ###		###		  ###	###########		  ###
+	###		###   ####   ###	     ################		############	 ###########	  ###
+	###		###          ###	    ##################		##########				  ###	  ###
+	###		###          ###	   ###              ###		###						  ###	  ###
+	###		###          ###	  ###                ###	###						  ###	  ###
+	###		###          ###	 ###                  ###	###				#############	  ###
+	###		###          ###	####                  ####	###				 ###########	  ###
+	###																						  ###
+	#############################################################################################
+	#############################################################################################
+	#############################################################################################	
+	
+	
+
+#
+#	CLASS A //  EZ //		255 0 255
+#	CLASS B // MID //    	205 52 179
+#	CLASS C // MAD //		139 10 80 150
+#
+#	!!! DIE VERGABE DER CLASSE WAR NACH GEFÜHL OB ICH SIE SPIELEN WÜRDE !!!
+#
+
+
+# for shaped maps - ShapedMap True
+
+
+
+###
+###		CLASS C Maps
+###
+
+	# Maps Tier 1 with ShapedMap c 
+	
+		# Dungeon map t1
+		Show
+			Class Map
+			BaseType "Dungeon Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+		
+		# Lookout map t1
+		Show
+			Class Map
+			BaseType "Lookout Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+			
+	# Maps Tier 1 with ShapedMap b 
+	
+	# Maps Tier 1 with ShapedMap a
+	
+		# Graveyard Map Tier 1
+		Show
+			Class Map
+			BaseType "Graveyard Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+		
+		# Beach Map Tier 1
+		Show
+			Class Map
+			BaseType "Beach Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+	
+	# Maps Tier 2 with ShapedMap c
+	
+		# Pen Map t2
+		Show
+			Class Map
+			BaseType "Pen Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+	
+	# Maps Tier 2 with ShapedMap b
+	
+		# Desert map t2
+		Show
+			Class Map
+			BaseType "Desert Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+
+		# Flooded Mine map t2
+		Show
+			Class Map
+			BaseType "Flooded Mine Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+		
+		# Arid Lake map t2
+		Show
+			Class Map
+			BaseType "Arid Lake Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+
+		# Marshes map t2
+		Show
+			Class Map
+			BaseType "Marshes Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+	
+	# Maps Tier 2 with ShapedMap a
+		
+		# Alleyways Map t2
+		Show
+			Class Map
+			BaseType "Alleyways Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+	
+	# Maps Tier 3 with ShapedMap c
+	
+		# Cells map t3
+		Show
+			Class Map
+			BaseType "Cells Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+
+		# Leyline Map Tier 3
+		Show
+			Class Map
+			BaseType "Leyline Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+				
+	# Maps Tier 3 with ShapedMap b
+	
+		# Arcade map t3
+		Show
+			Class Map
+			BaseType "Arcade Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+
+		# Burial Chambers map t3
+		Show
+			Class Map
+			BaseType "Burial Chambers Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+
+		# Excavation map t3
+		Show
+			Class Map
+			BaseType "Excavation Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+			
+		# Cage Map t3
+		Show
+			Class Map
+			BaseType "Cage Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+	
+	# Maps Tier 3 with ShapedMap a
+	
+		# Springs Map Tier 3
+		Show
+			Class Map
+			BaseType "Springs Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+		
+		# Port Map t3
+		Show
+			Class Map
+			BaseType "Port Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+		
+		# Peninsula Map Tier 3
+		Show
+			Class Map
+			BaseType "Peninsula Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+			
+		# Iceberg Map t3
+		Show
+			Class Map
+			BaseType "Iceberg Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+	
+	# Maps Tier 4 with ShapedMap c
+	
+		# Grotto map t4
+		Show
+			Class Map
+			BaseType "Grotto Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+				
+	# Maps Tier 4 with ShapedMap b
+	
+		# Chateau map t4
+		Show
+			Class Map
+			BaseType "Chateau Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+			
+		# Courthouse map t4
+		Show
+			Class Map
+			BaseType "Courthouse Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+		
+		# Relic Chambers map
+		Show
+			Class Map
+			BaseType "Relic Chambers Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+		
+	
+	# Maps Tier 4 with ShapedMap a
+	
+		# Volcano Map Tier 4
+		Show
+			Class Map
+			BaseType "Volcano Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+
+		# Gorge Map Tier 4
+		Show
+			Class Map
+			BaseType "Gorge Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+
+		# City Square Map Tier 4
+		Show
+			Class Map
+			BaseType "City Square Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+		
+		# Canyon Map Tier 4
+		Show
+			Class Map
+			BaseType "Canyon Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+			
+		# Strand Map Tier 4
+		Show 
+			Class Map
+			BaseType "Strand Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+
+		# Lighthouse Map t4
+		Show
+			Class Map
+			BaseType "Lighthouse Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 38
+	
+	# Maps Tier 5 with ShapedMap c
+	
+		# Toxic Sewer Map t5
+		Show
+			Class Map
+			BaseType "Toxic Sewer Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+		
+		# Spider Lair Map t5
+		Show
+			Class Map
+			BaseType "Spider Lair Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 34
+	
+	# Maps Tier 5 with ShapedMap b
+	
+		# Ancient City Map t5
+		Show
+			Class Map
+			BaseType "Ancient City Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+
+		# Barrows Map t5
+		Show
+			Class Map
+			BaseType "Barrows Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 9 100
+			SetFontSize 36
+		
+		# Maze Map t5
+		Show
+			Class Map
+			BaseType "Maze Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Ivory Temple Map t5
+		Show
+			Class Map
+			BaseType "Ivory Temple Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+		# Sulphur Vents Map t5
+		Show
+			Class Map
+			BaseType "Sulphur Vents Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+		# Conservatory Map t5
+		Show
+			Class Map
+			BaseType "Conservatory Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+		# Haunted Mansion Map t5
+		Show
+			Class Map
+			BaseType "Haunted Mansion Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+	# Maps Tier 5 with ShapedMap a
+	
+		# Channel map t5
+		Show
+			Class Map
+			BaseType "Channel Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 255 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+	
+	# Maps Tier 6 with ShapedMap c
+	
+		# Academy map t6
+		Show
+			Class Map
+			BaseType "Academy Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+
+		# Underground Sea map t6
+		Show
+			Class Map
+			BaseType "Underground Sea Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+		
+		# Thicket map t6
+		Show
+			Class Map
+			BaseType "Thicket Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+				
+	# Maps Tier 6 with ShapedMap b 
+
+		# Ashen Wood map t6
+		Show
+			Class Map
+			BaseType "Ashen Wood Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+	# Maps Tier 6 with ShapedMap a
+	
+		# Atoll Map Tier 6
+		Show
+			Class Map
+			BaseType "Atoll Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Cemetery Map Tier 6
+		Show
+			Class Map
+			BaseType "Cemetery Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Wharf Map Tier 6
+		Show 
+			Class Map
+			BaseType "Wharf Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Phantasmagoria Map Tier 6
+		Show
+			Class Map
+			BaseType "Phantasmagoria Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+			
+		# Jungle Valley Map Tier 6
+		Show
+			Class Map
+			BaseType "Jungle Valley Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+			
+		# Fields Map Tier 6
+		Show
+			Class Map
+			BaseType "Fields Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+			
+		# Mausoleum Map Tier 6
+		Show
+			Class Map
+			BaseType "Mausoleum Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+	
+	# Maps Tier 7 with ShapedMap c 
+	
+		# Lava Chamber Map Tier 7
+		Show
+			Class Map
+			BaseType "Lava Chamber Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+		
+		# Arachnid Nest Map t7
+		Show
+			Class Map
+			BaseType "Arachnid Nest Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+		
+		# Tribunal Map t7
+		Show
+			Class Map
+			BaseType "Tribunal Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+			
+		# Gardens Map t7
+		Show
+			Class Map
+			BaseType "Gardens Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+	
+	# Maps Tier 7 with ShapedMap b
+	
+		# Bazaar Map t7
+		Show
+			Class Map
+			BaseType "Bazaar Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+		# Bone Crypt Map t7
+		Show
+			Class Map
+			BaseType "Bone Crypt Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Residence Map t7
+		Show
+			Class Map
+			BaseType "Residence Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+		# Coral Ruins Map t7
+		Show
+			Class Map
+			BaseType "Coral Ruins Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+	# Maps Tier 7 with ShapedMap a
+	
+		# Underground River Map Tier 7
+		Show
+			Class Map
+			BaseType "Underground River Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+
+		# Dunes Map Tier 7
+		Show
+			Class Map
+			BaseType "Dunes Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+			
+		# Ramparts Map Tier 7
+		Show
+			Class Map
+			BaseType "Ramparts Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+	
+	# Maps Tier 8 with ShapedMap c
+
+		# Vaal Pyramid map t8
+		Show
+			Class Map
+			BaseType "Vaal Pyramid Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34		
+			
+		# Laboratory map t8
+		Show
+			Class Map
+			BaseType "Laboratory Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+				
+	# Maps Tier 8 with ShapedMap b
+
+		# Armoury map t8
+		Show
+			Class Map
+			BaseType "Armoury Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Overgrown Ruin map t8
+		Show
+			Class Map
+			BaseType "Overgrown Ruin Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Mineral Pools map t8
+		Show
+			Class Map
+			BaseType "Mineral Pools Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+		# Geode map t8
+		Show
+			Class Map
+			BaseType "Geode Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+			
+		# Infested Valley map t8
+		Show
+			Class Map
+			BaseType "Infested Valley Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+	# Maps Tier 8 with ShapedMap a
+	
+		# Shore Map t8
+		Show
+			Class Map
+			BaseType "Shore Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Tropical Island Map t8
+		Show
+			Class Map
+			BaseType "Tropical Island Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+
+		# Courtyard Map t8
+		Show
+			Class Map
+			BaseType "Courtyard Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Mud Geyser Map Tier 8
+		Show
+			Class Map
+			BaseType "Mud Geyser Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+
+	# Maps Tier 9 with ShapedMap c
+
+		# Waste Pool map t9
+		Show
+			Class Map
+			BaseType "Waste Pool Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+		
+		# Museum map t9
+		Show
+			Class Map
+			BaseType "Museum Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+		
+		# Tower map t9
+		Show
+			Class Map
+			BaseType "Tower Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+
+	# Maps Tier 9 with ShapedMap b
+	
+		# Arena map t9
+		Show
+			Class Map
+			BaseType "Arena Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+		# Vault map t9
+		Show
+			Class Map
+			BaseType "Vault Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Temple map t9
+		Show
+			Class Map
+			BaseType "Temple Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Moon Temple map t9
+		Show
+			Class Map
+			BaseType "Moon Temple Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+		
+		# Scriptorium map t9
+		Show
+			Class Map
+			BaseType "Scriptorium Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+	# Maps Tier 9 with ShapedMap a	
+
+		# Plateau Map t9
+		Show
+			Class Map
+			BaseType "Plateau Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+
+		# Estuary Map t9
+		Show
+			Class Map
+			BaseType "Estuary Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+			
+		# Sepulchre Map t9
+		Show
+			Class Map
+			BaseType "Sepulchre Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38	
+
+	# Maps Tier 10 with ShapedMap c
+	
+		# Cursed Crypt map t10
+		Show
+			Class Map
+			BaseType "Cursed Crypt Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 34
+				
+	# Maps Tier 10 with ShapedMap b
+	
+		# Arachnid Tomb map t10
+		Show
+			Class Map
+			BaseType "Arachnid Tomb Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+				
+		# Orchard map t10
+		Show
+			Class Map
+			BaseType "Orchard Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36		
+			
+		# Siege map t10
+		Show
+			Class Map
+			BaseType "Siege Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 36
+	
+	# Maps Tier 10 with ShapedMap a
+	
+		# Shipyard Map t10
+		Show
+			Class Map
+			BaseType "Shipyard Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+			
+		# Wasteland Map t10
+		Show
+			Class Map
+			BaseType "Wasteland Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Precinct Map t10
+		Show
+			Class Map
+			BaseType "Precinct Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+
+		# Bog Map Tier 10
+		Show
+			Class Map
+			BaseType "Bog Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+		
+		# Pier Map Tier 10
+		Show
+			Class Map
+			BaseType "Pier Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38		
+			
+		# Belfry Map Tier 10
+		Show
+			Class Map
+			BaseType "Belfry Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 255 0 150
+			PlayAlertSound 8 200
+			SetFontSize 38
+	
+	# Maps Tier 11 c
+	
+	# Maps Tier 11 b
+	
+		# Factory map t11
+		Show
+			Class Map
+			BaseType "Factory Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Waterways map t11
+		Show
+			Class Map
+			BaseType "Waterways Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Lair map t11
+		Show
+			Class Map
+			BaseType "Lair Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Colonnade map t11
+		Show
+			Class Map
+			BaseType "Colonnade Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Coves map t11
+		Show
+			Class Map
+			BaseType "Coves Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+		
+		# Primordial Pool map t11
+		Show
+			Class Map
+			BaseType "Primordial Pool Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Pit map t11
+		Show
+			Class Map
+			BaseType "Pit Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+	
+	# Maps Tier 11 a
+	
+		# Promenade Map t11
+		Show
+			Class Map
+			BaseType "Promenade Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+			
+		# Mesa Map Tier 11
+		Show
+			Class Map
+			BaseType "Mesa Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+			
+		# Spider Forest Map Tier 11
+		Show
+			Class Map
+			BaseType "Spider Forest Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+	
+	# Maps Tier 12 c
+	
+		# Torture Chamber Map Tier 12
+		Show
+			Class Map
+			BaseType "Torture Chamber Map"
+			SetTextColor 139 10 80
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 0 0 150
+			PlayAlertSound 8 300
+			SetFontSize 40
+
+		# Crystal Ore map t12
+		Show
+			Class Map
+			BaseType "Crystal Ore Map"
+			SetTextColor 139 10 80
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 0 0 150
+			PlayAlertSound 8 300
+			SetFontSize 40
+		
+		# Villa map t12
+		Show
+			Class Map
+			BaseType "Villa Map"
+			SetTextColor 139 10 80
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 0 0 150
+			PlayAlertSound 8 300
+			SetFontSize 40
+			
+		# Necropolis map t12
+		Show
+			Class Map
+			BaseType "Necropolis Map"
+			SetTextColor 139 10 80
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 0 0 150
+			PlayAlertSound 8 300
+			SetFontSize 40
+			
+		# Overgrown Shrine map t12
+		Show
+			Class Map
+			BaseType "Overgrown Shrine Map"
+			SetTextColor 139 10 80
+			SetBorderColor 139 10 80
+			SetBackgroundColor 255 0 0 150
+			PlayAlertSound 8 300
+			SetFontSize 40
+			
+	# Maps Tier 12 b
+	
+		# Castle Ruins map t12
+		Show
+			Class Map
+			BaseType "Castle Ruins Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+	
+	# Maps Tier 12 a
+		
+		# Racecourse Map Tier 12
+		Show
+			Class Map
+			BaseType "Racecourse Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44			
+			
+		# Summit Map Tier 12
+		Show
+			Class Map
+			BaseType "Summit Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44		
+			
+		# Defiled Cathedral Map Tier 12
+		Show
+			Class Map
+			BaseType "Defiled Cathedral Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+
+	# Maps Tier 13 c
+	
+			# Malformation map t13
+			Show
+				Class Map
+				BaseType "Malformation Map"
+				SetTextColor 139 10 80
+				SetBorderColor 139 10 80
+				SetBackgroundColor 255 0 0 150
+				PlayAlertSound 8 300
+				SetFontSize 40
+				
+			# Core Map t13
+			Show
+				Class Map
+				BaseType "Core Map"
+				SetTextColor 139 10 80
+				SetBorderColor 139 10 80
+				SetBackgroundColor 255 0 0 150
+				PlayAlertSound 8 300
+				SetFontSize 40
+				
+	# Maps Tier 13 b
+	
+		# Terrace map t13
+		Show
+			Class Map
+			BaseType "Terrace Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Arsenal map t13
+		Show
+			Class Map
+			BaseType "Arsenal Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42		
+			
+		# Ghetto map t13
+		Show
+			Class Map
+			BaseType "Ghetto Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Shrine map t13
+		Show
+			Class Map
+			BaseType "Shrine Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+	
+	# Maps Tier 13 a
+	
+		# Caldera map t13
+		Show
+			Class Map
+			BaseType "Caldera Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44	
+			
+		# Park Map t13
+		Show
+			Class Map
+			BaseType "Park Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+			
+		# Desert Spring Map Tier 13
+		Show
+			Class Map
+			BaseType "Desert Spring Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+	
+	# Maps Tier 14 c
+	
+		# Plaza map t14
+		Show
+			Class Map
+			BaseType "Plaza Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42		
+			
+		# Dig map t14
+		Show
+			Class Map
+			BaseType "Dig Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+
+	# Maps Tier 14 b
+	
+		# Crimson Temple map t14 !!
+		Show
+			Class Map
+			BaseType "Crimson Temple Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Palace map t14
+		Show
+			Class Map
+			BaseType "Palace Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+	
+	# Maps Tier 14 a
+	
+		# Dark Forest map t14
+		Show
+			Class Map
+			BaseType "Dark Forest Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+		
+		# Colosseum map t14
+		Show
+			Class Map
+			BaseType "Colosseum Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+
+		# Acid Lakes Map Tier 14
+		Show
+			Class Map
+			BaseType "Acid Lakes Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+  
+	# Maps Tier 15 c
+	
+		# Sunken City Map t15
+		Show
+			Class Map
+			BaseType "Sunken City Map"
+			SetTextColor 139 10 80 150
+			SetBorderColor 255 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44	
+			
+	# Maps Tier 15 b
+	
+		# Reef Map t15
+		Show
+			Class Map
+			BaseType "Reef Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44		
+			
+		# Carcass Map t15
+		Show
+			Class Map
+			BaseType "Carcass Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+	
+	# Maps Tier 15 a
+  
+	# Maps Tier 16 c
+	# Maps Tier 16 b
+	
+		# Lair of the Hydra map t16
+		Show
+			Class Map
+			BaseType "Lair of the Hydra Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Vaal Temple map t16
+		Show
+			Class Map
+			BaseType "Vaal Temple Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+			
+		# Forge of the Phoenix map t16
+		Show
+			Class Map
+			BaseType "Forge of the Phoenix Map"
+			SetTextColor 205 52 179
+			SetBorderColor 205 255 255 150
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 42
+	
+	# Maps Tier 16 a
+	
+		# Pit of the Chimera map t16
+		Show
+			Class Map
+			BaseType "Pit of the Chimera Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+
+		# Maze of the Minotaur map t16
+		Show
+			Class Map
+			BaseType "Maze of the Minotaur Map"
+			SetTextColor 255 0 255
+			SetBorderColor 255 255 255
+			SetBackgroundColor 255 0 0 200
+			PlayAlertSound 8 300
+			SetFontSize 44
+	
+##################################################
+
+
+	
+	
+#Shows Unqiue Maps
+Show
+    Class Map
+	Rarity Unique
+    PlayAlertSound 8 300
+	SetFontSize 34
+	
+#Shows Atze Ecken
+Show
+    Class Map
+	BaseType "Sacrifice" "Mortal" "Key" "Fragment"
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+    PlayAlertSound 8 300
+	SetFontSize 34
+	
+#Show Maps Allgemein
+
+Show
+	Class "Map Fragment"
+    SetBorderColor 255 0 174
+	PlayAlertSound 15 300
+	SetFontSize 39
+
+Show
+    Class Map
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+    PlayAlertSound 8 300
+	SetFontSize 34
+
+
+
+
+	
+
+######################################################################################################
+######################################################################################################
+##                                                                                                  ##
+##   ## ## ##    ##                    ##  ##  ###### ##    ## ######## ## ##########    ## ## ##   ##
+##   ## ## ##     ##                  ##   ##  ###### ##    ## ######## ## ##########    ## ## ##   ##
+##   ## ## ##      ##                ##        ##     ##    ##    ##       ##            ## ## ##   ##
+##   ## ## ##       ##      ##      ##     ##  ##     ########    ##    ## ##    ####    ## ## ##   ##
+##   ## ## ##        ##    ####    ##      ##  ##     ########    ##    ## ##    ####    ## ## ##   ##
+##                    ##  ##  ##  ##       ##  ##     ##    ##    ##    ## ##      ##               ##
+##   ## ## ##          ####    ####        ##  ###### ##    ##    ##    ## ##########    ## ## ##   ##
+##   ## ## ##           ##      ##         ##  ###### ##    ##    ##    ## ##########    ## ## ##   ##
+##                                                                                                  ##
+######################################################################################################
+######################################################################################################
+##                                                                                                  ##
+## Hier stehen Cards drinne die ICH (Hardy) nicht braucht sucht bitte immer Checken auf eigenbedarf ##
+##                                                                                                  ##
+######################################################################################################
+######################################################################################################
+
+
+
+#very important!!! for hardy
+Show
+	Class Divination
+	BaseType "The Queen" "The Soul" "The Brittle Emperor" "The Battle Born" "The Celestial Justicar" "The Twins" "The Warlord" "Left to Fate" "The Realm" "No Traces"
+	SetTextColor 0 0 0
+    SetBorderColor  0 255 0
+    SetBackgroundColor 255 20 174 200
+	PlayAlertSound 2 300
+	SetFontSize 44
+	
+#WICHTIG
+Show
+	Class Divination
+	BaseType "Abandoned Wealth" "The Cartographer" "Chaotic Disposition" "Coveted Possession" "The Hoarder" "House of Mirrors" "The Immortal" "The Inventor" "Lucky Connections" "Lucky Deck" "The Saint's Treasure" "The Sephirot" "The Survivalist" "The Union" "Vinia's Token" "The Wrath" "The Encroaching Darkness" "Last Hope" "Lost Worlds" "Treasure Hunter" "The Trial" "The Cataclysm" "The Dragon's Heart" "The Enlightened" "The Fox" "Volatile Power" "Wealth and Power" "The Aesthete" "Blind Venture" "The Body" "The Conduit" "The Devastator" "The Doctor" "Earth Drinker" "The Fiend" "The Formless Sea" "Heterochromia" "Hope" "Humility" "The Hunger" "Hunter's Reward" "The King's Heart" "The Last One Standing" "Lysah's Respite" "The Offering" "The Poet" "The Polymath" "Pride Before the Fall" "The Scavenger" "The Spark and the Flame" "The Stormcaller" "Time-Lost Relic" "The Tower" "The Vast" "The Valkyrie" "The Wolf" "The Wretched" "Bowyer's Dream" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Ethereal" "The Jester" "Merciless Armament" "The Porcupine" "Shard of Fate" "The Valley of Steel Boxes" "The Void" "The Tyrant" "The Eye of the Dragon"
+	SetTextColor 0 0 0
+    SetBorderColor  0 255 0
+    SetBackgroundColor 255 69 0 200
+	PlayAlertSound 2 200
+	SetFontSize 40
+	
+#INTRESANNT
+Show
+	Class Divination
+	BaseType "Emperor's Luck" "The Gemcutter" "Loyalty" "Three Faces in the Dark" "The Explorer" "Gemcutter's Promise" "Gift of the Gemling Queen" "The Artist" "The Avenger" "The Cursed King" "The Demoness" "The Fletcher" "The Gentleman" "Glimmer of Hope" "The Harvester" "Hubris" "Jack in the Box" "The One With All" "The Penitent" "The Risk" "The Standoff" "The Wind" "The Wolven King's Bite" "Destined to Crumble" "Emperor of Purity" "The Flora's Gift" "The Sigil" "The Spoiled Prince" "The Blazing Fire" "The Ruthless Ceinture"
+	SetTextColor 205 102 0
+    SetBorderColor 255 140 0
+    SetBackgroundColor 207 207 207 200
+	SetFontSize 37
+
+#MAYBE CAN	
+Show
+	Class Divination
+	BaseType "The Gambler" "Rain of Chaos" "Her Mask" "Scholar of the Seas" "The Doppelganger" "Dying Anguish" "Grave Knowledge" "The Summoner" "Audacity" "The Gladiator" "The Pack Leader" "The Pact" "The Throne" "The Traitor" "The Warden"
+	SetTextColor 205 102 0 150
+    SetBorderColor 255 140 0 150
+    SetBackgroundColor 207 207 207 150
+	SetFontSize 34
+	
+Hide
+	Class Divination
+	BaseType "The Carrion Crow" "The King's Blade" "The Rabid Rhoa" "The Road to Power" "The Surgeon" "The Twins" "The Tyrant" "The Wolf's Shadow" "Turn the Other Cheek" "Thunderous Skies" "The Siren" "The Scarred Meadow" "A Mother's Parting Gift" "The Lich" "The Incantation" "The Hermit" "The Dragon" "Death" "Birth of the Three" "The Scholar"
+
+# allgemeine card farbe	
+Show 
+    Class Divination
+    SetTextColor 255 140 0
+    SetBorderColor 255 140 0
+	SetFontSize 34
+	
+	
+	
+	
+	
+	
+	
+##																		    ##
+##																		    ##
+##																		    ##
+################# UND DER REST SOWAS WIE ITEMS DIE MAN SUCHT #################
+##																		    ##
+##																		    ##
+##																		    ##
+	
+## andere sachen die gebraucht oder gesucht werden zb chance or craft items
+
+# EndGame Ietems White for Craft
+Show
+    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Crystal Belt" "Spiked Gloves" "Leaguestone"
+    SetBorderColor 255 255 0
+	SetFontSize 36
+	PlayAlertSound 7 200
+	
+Show
+    BaseType "Vanguard Belt" "Two-Toned Boots" 
+    SetBorderColor 255 255 0
+	SetFontSize 34
+
+# Endgame Tier Items ALL  // Body, Weapons , Boots , Gloves , Helmet , Shields //
+# Hide
+    # BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Colossal Tower Shield" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Vaal Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Branded Kite Shield" "Titan Gauntlets" "Vaal Gauntlets""Slink Gloves" "Stealth Gloves" "Sorcerer Gloves" "Arcanist Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Vaal Greaves" "Slink Boots" "Stealth Boots" "Arcanist Slippers" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Assassin's Garb" "Zodiac Leather" "Vaal Regalia" "Widowsilk Robe" "Occultist's Vestment" "Necromancer Silks" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Hubris Circlet" "Mind Cage" "Solaris Circlet" "Necromancer Circlet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Vaal Mask" "Prophet Crown" "Pig-Faced Bascinet" "Harbinger Bow" "Maraketh Bow"
+    # Rarity Rare
+    # SetBorderColor 255 0 174
+	# SetFontSize 32
+
+# always what do u want 
+Show
+    BaseType "Rustic Sash" "Heavy Belt" "Leather Belt"
+    Rarity Rare
+    SetBorderColor 255 0 174
+	SetFontSize 34
+	
+Show
+    BaseType "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    Rarity Rare
+    SetBorderColor 255 0 174
+	SetFontSize 34
+	
+Show
+    Class Amulet
+    Rarity Rare
+    SetBorderColor 255 0 174
+	SetFontSize 34
+	
+Show
+	Class Ring
+	Rarity Rare
+	SetBorderColor 255 0 174 150
+	SetFontSize 30
+	
+# Early Game Melee Belts for Vendor Craft // Rustic/Rarity - Magic or Rare/ + Item/Weapons - White, Magic or Rare/ + Blacksmith Whetstone = Weapon with Phys % Roll/PreFix/ After this is the Weapon Magic //
+# Short ----> // Rustic + Item + Blacksmith Whetstone = Weapon with Phys % Roll //
+#Show
+#   BaseType "Rustic Sash"
+#   SetBorderColor 255 0 174
+
+# Melee Weapons Two Hand //Craft etc allgemein <----
+#Show
+#    Class "Two Hand Swords" "Two Hand Axes" "Two Hand Maces"
+#    SetBorderColor 0 255 0
+	
+# MID Game Highlight bzw. END-Game 2 mal 2 Große Items wie Claws/Gloves etc.
+Hide
+	Width 2
+	Height <= 2
+	Rarity Rare
+	SetBorderColor 255 0 174
+	
+
+# Items aus der League Talisman
+Show
+	Class Amulet
+    BaseType "Talisman"
+    SetBorderColor 255 0 174
+	SetFontSize 34
+	
+	
+	
+# CHANCE ITEMS ALL what do u want
+
+# Shavronne's Wrappings //Occultist's Vestment// ... Kaoms Heart //Glorious Plate//
+Hide
+    BaseType "Occultist's Vestment" "Glorious Plate"
+    Rarity Normal
+    SetBorderColor 255 0 174
+	
+Show
+	Rarity Rare
+	ElderItem True 
+	
+Show
+	Rarity Rare
+	ShaperItem True 
+
+# Tabula Rasa
+# Show
+	# BaseType "Simple Robe"
+	# Rarity Normal
+	# SetBorderColor 255 0 174
+	
+# Voll's Devotion
+#Show
+#    BaseType "Agate Amulet"
+#    Rarity Normal
+#    SetBorderColor 255 0 174
+
+# Colossal Tower Shield CRAFTING Shield
+Hide
+   BaseType "Colossal Tower Shield"
+   Rarity Normal
+   SetBorderColor 255 0 174
+Hide
+   BaseType "Colossal Tower Shield"
+   Rarity Rare
+   SetBorderColor 255 0 174
+   
+# Lycosidae
+Hide
+   BaseType "Rawhide Tower Shield"
+   Rarity Normal
+   SetBorderColor 255 0 174
+
+# Bisco's
+Show
+   BaseType "Gold Amulet"
+   Rarity Normal
+   SetBorderColor 255 0 174
+
+# Queen of the Forest
+#Show
+#    BaseType "Destiny Leather"
+#    Rarity Normal
+#    SetBorderColor 255 0 174
+
+# Kitava's Feast
+#Show
+#    BaseType "Void Axe"
+#    Rarity Normal
+#    SetBorderColor 255 0 174
+
+# HeadHunter Belt
+Show
+   BaseType "Leather Belt"
+   Rarity Normal
+   SetBorderColor 255 0 174
+
+# Skyforth Boots
+#Show
+#    BaseType "Sorcerer Boots"
+#    Rarity Normal
+#    SetBorderColor 255 0 174
+
+Hide
+	Rarity <= Unique
+
+
+
+
