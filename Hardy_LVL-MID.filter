@@ -1555,12 +1555,50 @@ Show
   BaseType "Rustic Sash"
   SetBorderColor 255 0 174
 
-# CHANCE ITEMS ALL what do u want
+##														  ##
+##														  ##
+##													      ##
+################# Weapon End Game Stuff  ###################
+##												  		  ##
+##														  ##
+##														  ##
+
+# Endgame Tier Items ALL  // Weapons //
+Show
+	BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
+	ItemLevel > 83
+	Rarity Rare
+	SetBorderColor 255 255 255
+	SetBackgroundColor 255 0 174
+	SetTextColor 255 255 0
+	SetFontSize 40
+
+	Hide
+		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
+		ItemLevel > 83
+		SetBorderColor 255 255 255
+		SetBackgroundColor 255 0 174 125
+		SetTextColor 0 0 0
+		SetFontSize 40
+
+	Show
+		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
+		Rarity Rare
+		SetBackgroundColor 255 255 0
+		SetTextColor 0 0 0
+		SetBorderColor 255 0 174
+		SetFontSize 40
+
+	Hide
+		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"	
+		Rarity Normal
+		SetBorderColor 255 0 174
+		SetFontSize 40
 
 ##														  ##
 ##														  ##
 ##													      ##
-################# chance/want Items Stuff ##################
+################# chance/needs Items Stuff ##################
 ##												  		  ##
 ##														  ##
 ##														  ##
@@ -1582,7 +1620,7 @@ Show
 # Melee Weapons Two Hand //Craft etc allgemein <----
 Hide
 	Class "Two Hand Swords" "Two Hand Axes" #"Two Hand Maces"
-	#Rarity Rare
+	#Rarity Normal
 	SetBorderColor 0 255 0
 
 # Items aus der League Talisman
@@ -1736,47 +1774,6 @@ Hide
 	#Rarity Normal
     SetBorderColor 255 0 174
     SetFontSize 40
-
-##														  ##
-##														  ##
-##													      ##
-################# Weapon End Game Stuff  ###################
-##												  		  ##
-##														  ##
-##														  ##
-
-# Endgame Tier Items ALL  // Weapons //
-Show
-	BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
-	ItemLevel > 83
-	Rarity Rare
-	SetBorderColor 255 255 255
-	SetBackgroundColor 255 0 174
-	SetTextColor 255 255 0
-	SetFontSize 40
-
-	Hide
-		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
-		ItemLevel > 83
-		SetBorderColor 255 255 255
-		SetBackgroundColor 255 0 174 125
-		SetTextColor 0 0 0
-		SetFontSize 40
-
-	Show
-		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
-		Rarity Rare
-		SetBackgroundColor 255 255 0
-		SetTextColor 0 0 0
-		SetBorderColor 255 0 174
-		SetFontSize 40
-
-	Hide
-		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"	
-		Rarity Normal
-		SetBorderColor 255 0 174
-		SetFontSize 40
-
 
 ##														  ##
 ##														  ##
