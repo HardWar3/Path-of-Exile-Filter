@@ -1508,11 +1508,16 @@ Show
 	
 # EndGame Ietems White for Craft
 Show
-    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Crystal Belt" "Spiked Gloves" "Leaguestone" "Vermillion Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
+    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Crystal Belt" "Spiked Gloves" "Leaguestone" "Vermillion Ring" "Cerulean Ring" "Iolite Ring"
     SetBorderColor 255 255 0
 	SetFontSize 44
 	PlayAlertSound 7 200
 	
+Show
+	BaseType "Bone Ring"
+    SetBorderColor 255 255 0
+	SetFontSize 44
+
 Show
     BaseType "Vanguard Belt" "Two-Toned Boots" 
     SetBorderColor 255 255 0
