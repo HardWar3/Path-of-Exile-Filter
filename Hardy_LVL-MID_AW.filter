@@ -1682,7 +1682,7 @@ Show
 # Melee Weapons Two Hand //Craft etc allgemein <----
 Hide
 	Class  "Two Hand Maces" #"Two Hand Swords" "Two Hand Axes"
-	#Rarity Rare
+	Rarity Rare
 	SetBorderColor 0 255 0
 
 # Items aus der League Talisman
