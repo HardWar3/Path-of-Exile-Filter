@@ -287,6 +287,16 @@ Show
     SetBackgroundColor 0 255 174 150
     SetFontSize 39
 
+#------------------------------- Betrayal -----------------------------------
+
+Show
+	Class Map
+	BaseType "Scarab"
+    SetBorderColor 255 0 174
+	SetBackgroundColor 0 255 174 150
+	PlayAlertSound 15 150
+	SetFontSize 39
+
 #------------------------------- Delirium -----------------------------------
 
 Show
@@ -1203,7 +1213,7 @@ Show
     SetTextColor 255 0 255
     SetBorderColor 255 255 255
     SetBackgroundColor 255 255 255 150
-    PlayAlertSound 9 100
+    PlayAlertSound 8 100
     SetFontSize 38
 Show
 	Class Map
@@ -1651,6 +1661,7 @@ Show
 # chance items
 Hide
 	BaseType "Terror Maul" "Judgement Staff"
+	Rarity Normal
 	SetBorderColor 255 0 174
 
 # Shavronne's Wrappings //Occultist's Vestment// ... Kaoms Heart //Glorious Plate//
@@ -1726,6 +1737,12 @@ Hide
 # Chin Sol
 Hide
 	BaseType "Assassin Bow"
+	Rarity Normal
+	SetBorderColor 255 0 174
+
+# sword
+Show
+	BaseType "Engraved Greatsword"
 	Rarity Normal
 	SetBorderColor 255 0 174
 

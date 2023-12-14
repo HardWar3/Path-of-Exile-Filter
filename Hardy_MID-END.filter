@@ -286,6 +286,16 @@ Show
     SetBorderColor 0 255 174
     SetBackgroundColor 0 255 174 150
     SetFontSize 39
+	
+#------------------------------- Betrayal -----------------------------------
+
+Show
+	Class Map
+	BaseType "Scarab"
+    SetBorderColor 255 0 174
+	SetBackgroundColor 0 255 174 150
+	PlayAlertSound 15 150
+	SetFontSize 39
 
 #------------------------------- Delirium -----------------------------------
 
@@ -1203,7 +1213,7 @@ Show
     SetTextColor 255 0 255
     SetBorderColor 255 255 255
     SetBackgroundColor 255 255 255 150
-    PlayAlertSound 9 100
+    PlayAlertSound 8 100
     SetFontSize 38
 Show
 	Class Map
