@@ -47,7 +47,7 @@ Show
 	
 Show
 	Class Currency
-	BaseType "Eternal Orb" "Divine Orb" "Exalted Orb" "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
+	BaseType "Eternal Orb" "Divine Orb" "Exalted Orb"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red
 	SetTextColor 255 0 174
@@ -66,6 +66,17 @@ Show
 		SetBackgroundColor 255 255 255 255
 		PlayAlertSound 6 300
 		SetFontSize 44
+
+Show
+	Class Vault Key
+	BaseType "Reliquary Key"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	CustomAlertSound "money.mp3" 300
+	# PlayAlertSound 6 300
+	SetFontSize 44
 
 Show
 	Class Currency
@@ -1596,7 +1607,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Tiger Hook" "Corsair Sword" "Dragoon Sword" "Jewelled Foil" "Exquisite Blade" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Sai" "Ambusher" "Platinum Kris" "Imperial Skean" "Ezomyte Dagger" "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Imbued Wand" "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Runic Hatchet" "Infernal Axe" "Fleshripper" "Void Axe" "Harbinger Bow" "Maraketh Bow" "Convoking Wand" "Anarchic Spiritblade" "Banishing Blade" "Alternating Sceptre" "Boom Mace" "Impact Force Propagator" "Psychotic Axe" "Apex Cleaver" "Solarine Bow" "Void Fangs" "Pneumatic Dagger" "Battery Staff" "Eventuality Rod" "Accumulator Wand"
 		Rarity Rare
 		SetBackgroundColor 255 255 0
@@ -1876,7 +1887,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Samnite Helmet" "Ezomyte Burgonet"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -1908,7 +1919,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Ancient Gauntlets" "Goliath Gauntlets" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -1940,7 +1951,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Ancient Greaves" "Darksteel Treads" "Goliath Greaves"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -1972,7 +1983,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Colosseum Plate" "Majestic Plate" "Golden Plate"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2004,7 +2015,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Magmatic Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2038,7 +2049,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Ursine Pelt" "Silken Hood" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2070,7 +2081,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Sharkskin Gloves" "Shagreen Gloves" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2102,7 +2113,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Sharkskin Boots" "Windbreak Boots" "Shagreen Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2134,7 +2145,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2149,14 +2160,14 @@ Show
 		SetFontSize 40
 
 #Shield
-	Show
-		BaseType "Battle Buckler" "Polar Buckler" "Golden Buckler" "Ironwood Buckler"
-		ItemLevel > 84
-		Rarity Rare
-		SetBorderColor 255 255 255
-		SetBackgroundColor 255 0 174
-		SetTextColor 255 255 0
-		SetFontSize 40
+Show
+	BaseType "Battle Buckler" "Polar Buckler" "Golden Buckler" "Ironwood Buckler"
+	ItemLevel > 84
+	Rarity Rare
+	SetBorderColor 255 255 255
+	SetBackgroundColor 255 0 174
+	SetTextColor 255 255 0
+	SetFontSize 40
 
 	Hide
 		BaseType "Battle Buckler" "Polar Buckler" "Golden Buckler" "Ironwood Buckler"
@@ -2166,7 +2177,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Battle Buckler" "Polar Buckler" "Golden Buckler" "Ironwood Buckler"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2200,7 +2211,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Necromancer Circlet" "Solaris Circlet" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2232,7 +2243,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Samite Gloves" "Conjurer Gloves" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2264,7 +2275,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Samite Slippers" "Nightwind Slippers" "Conjurer Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2296,7 +2307,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2330,7 +2341,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Fluted Bascinet" "Pig-Faced Bascinet" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2362,7 +2373,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 	
-	Show
+	Hide
 		BaseType "Serpentscale Gauntlets" "Wyrmscale Gauntlets" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2394,7 +2405,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Serpentscale Boots" "Wyrmscale Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2410,14 +2421,14 @@ Show
 
 
 #Body Armour
-	Show
-		BaseType "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet"
-		ItemLevel > 84
-		Rarity Rare
-		SetBorderColor 255 255 255
-		SetBackgroundColor 255 0 174
-		SetTextColor 255 255 0
-		SetFontSize 40
+Show
+	BaseType "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet"
+	ItemLevel > 84
+	Rarity Rare
+	SetBorderColor 255 255 255
+	SetBackgroundColor 255 0 174
+	SetTextColor 255 255 0
+	SetFontSize 40
 
 	Hide
 		BaseType "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet"
@@ -2427,7 +2438,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2459,7 +2470,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2494,7 +2505,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Magistrate Crown" "Prophet Crown" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2526,7 +2537,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Zealot Gloves" "Soldier Gloves" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2559,7 +2570,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Zealot Boots" "Soldier Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2591,7 +2602,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2623,7 +2634,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2657,7 +2668,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Harlequin Mask" "Vaal Mask" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2689,7 +2700,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Ambush Mitts" "Carnal Mitts" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2721,7 +2732,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Trapper Boots" "Ambush Boots" "Carnal Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2753,7 +2764,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Lacquered Garb" "Crypt Armour" "Sentinel Jacket"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2785,7 +2796,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2827,7 +2838,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Royal Burgonet" "Eternal Burgonet"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2860,7 +2871,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Vaal Gauntlets" "Titan Gauntlets" "Debilitation Gauntlets" "Spiked Gloves" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2892,7 +2903,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 		
-	Show
+	Hide
 		BaseType "Vaal Greaves" "Titan Greaves" "Brimstone Treads"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2925,7 +2936,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2957,7 +2968,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Ebony Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Heat-attuned Tower Shield" "Pinnacle Tower Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -2991,7 +3002,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Sinner Tricorne" "Lion Pelt" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3023,7 +3034,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 			
-	Show
+	Hide
 		BaseType "Stealth Gloves" "Gripped Gloves" "Sinistral Gloves" "Slink Gloves" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3055,7 +3066,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Stealth Boots" "Slink Boots" "Stormrider Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3087,7 +3098,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3119,7 +3130,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Cold-attuned Buckler"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3154,7 +3165,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Mind Cage" "Hubris Circlet" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3186,7 +3197,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40		
 
-	Show
+	Hide
 		BaseType "Arcanist Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Nexus Gloves" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3218,7 +3229,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Arcanist Slippers" "Sorcerer Boots" "Dreamquest Slippers"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3250,7 +3261,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3282,7 +3293,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3316,7 +3327,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Nightmare Bascinet" "Penitent Mask" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3348,7 +3359,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Hydrascale Gauntlets" "Dragonscale Gauntlets" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3380,7 +3391,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Hydrascale Boots" "Dragonscale Boots" "Two-Toned Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3412,7 +3423,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3444,7 +3455,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3478,7 +3489,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Praetor Crown" "Bone Helmet" "Archdemon Crown" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3510,7 +3521,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Legion Gloves" "Crusader Gloves" "Apothecary's Gloves"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3542,7 +3553,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Crusader Boots" "Two-Toned Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3574,7 +3585,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3606,7 +3617,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3640,7 +3651,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Deicide Mask" "Blizzard Crown" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3672,7 +3683,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 			
-	Show
+	Hide
 		BaseType "Assassin's Mitts" "Murder Mitts" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3704,7 +3715,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Assassin's Boots" "Murder Boots" "Fugitive Boots" "Two-Toned Boots"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3736,7 +3747,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3768,7 +3779,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3809,7 +3820,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Runic Crest"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3840,7 +3851,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Runic Crown" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3872,7 +3883,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 			
-	Show
+	Hide
 		BaseType "Runic Gages" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3903,7 +3914,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 	
-	Show
+	Hide
 		BaseType "Runic Gauntlets" 
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3935,7 +3946,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Runic Sollerets" "Runic Sabatons"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3966,7 +3977,7 @@ Show
 		SetTextColor 0 0 0
 		SetFontSize 40
 
-	Show
+	Hide
 		BaseType "Runic Sollerets" "Runic Sabatons"
 		Rarity Rare
 		SetBorderColor 255 0 174
@@ -3990,14 +4001,14 @@ Show
 #-----------
 
 # MID Game Highlight bzw. END-Game 2 mal 2 Große Items wie Claws/Gloves etc.
-Show
+Hide
 	Width 2
 	Height <= 2
 	Rarity Rare
 	SetBorderColor 255 0 174 
 	SetFontSize 40
 
-Show
+Hide
 	Rarity Rare
 	SetFontSize 36
 

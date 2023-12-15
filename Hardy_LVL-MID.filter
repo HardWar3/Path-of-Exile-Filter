@@ -47,7 +47,7 @@ Show
 	
 Show
 	Class Currency
-	BaseType "Eternal Orb" "Divine Orb" "Exalted Orb" "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
+	BaseType "Eternal Orb" "Divine Orb" "Exalted Orb"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red
 	SetTextColor 255 0 174
@@ -66,6 +66,17 @@ Show
 		SetBackgroundColor 255 255 255 255
 		PlayAlertSound 6 300
 		SetFontSize 44
+
+Show
+	Class Vault Key
+	BaseType "Reliquary Key"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red
+	SetTextColor 255 0 174
+	SetBorderColor 255 0 174
+	CustomAlertSound "money.mp3" 300
+	# PlayAlertSound 6 300
+	SetFontSize 44
 
 Show
 	Class Currency
@@ -1620,6 +1631,12 @@ Show
 
 ## andere sachen die gebraucht oder gesucht werden zb chance or craft items
 
+# sword
+Show
+	BaseType "Engraved Greatsword"
+	Rarity Normal
+	SetBorderColor 255 0 174
+
 # craft items
 Hide
 	BaseType "Terror Maul" "Judgement Staff" 
@@ -1737,12 +1754,6 @@ Hide
 # Chin Sol
 Hide
 	BaseType "Assassin Bow"
-	Rarity Normal
-	SetBorderColor 255 0 174
-
-# sword
-Show
-	BaseType "Engraved Greatsword"
 	Rarity Normal
 	SetBorderColor 255 0 174
 
