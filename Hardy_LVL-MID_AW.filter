@@ -2377,6 +2377,38 @@ Show
 		SetBorderColor 255 0 174
 		SetFontSize 40
 
+#Shield
+Show
+	BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield"
+	ItemLevel > 84
+	Rarity Rare
+	SetBorderColor 255 255 255
+	SetBackgroundColor 255 0 174
+	SetTextColor 255 255 0
+	SetFontSize 40
+
+	Hide
+		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield"
+		ItemLevel > 84
+		SetBorderColor 255 255 255
+		SetBackgroundColor 255 0 174 125
+		SetTextColor 0 0 0
+		SetFontSize 40
+
+	Show
+		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield"
+		Rarity Rare
+		SetBorderColor 255 0 174
+		SetBackgroundColor 255 255 0
+		SetTextColor 0 0 0
+		SetFontSize 40
+
+	Hide
+		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield"
+		Rarity Normal
+		SetBorderColor 255 0 174
+		SetFontSize 40
+
 #Midgame Stuff 
 ############## Armour / Evasion ##############
 #Helm
@@ -3333,7 +3365,7 @@ Show
 
 #Shield
 Show
-	BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
+	BaseType "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
 	ItemLevel > 84
 	Rarity Rare
 	SetBorderColor 255 255 255
@@ -3342,7 +3374,7 @@ Show
 	SetFontSize 40
 
 	Hide
-		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
+		BaseType "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
 		ItemLevel > 84
 		SetBorderColor 255 255 255
 		SetBackgroundColor 255 0 174 125
@@ -3350,7 +3382,7 @@ Show
 		SetFontSize 40
 
 	Show
-		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
+		BaseType "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
 		Rarity Rare
 		SetBorderColor 255 0 174
 		SetBackgroundColor 255 255 0
@@ -3358,7 +3390,7 @@ Show
 		SetFontSize 40
 
 	Hide
-		BaseType "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
+		BaseType "Harmonic Spirit Shield" "Titanium Spirit Shield" "Transfer-attuned Spirit Shield"
 		Rarity Normal
 		SetBorderColor 255 0 174
 		SetFontSize 40
