@@ -1578,8 +1578,11 @@ Show
 # Early Game Melee Belts for Vendor Craft // Rustic/Rarity - Magic or Rare/ + Item/Weapons - White, Magic or Rare/ + Blacksmith Whetstone = Weapon with Phys % Roll/PreFix/ After this is the Weapon Magic //
 # Short ----> // Rustic + Item + Blacksmith Whetstone = Weapon with Phys % Roll //
 Show
-  BaseType "Rustic Sash"
-  SetBorderColor 255 0 174
+	BaseType "Rustic Sash"
+	DropLevel >= 0
+	ItemLevel <= 47
+	Rarity >= Magic
+	SetBorderColor 255 0 174
 
 # CHANCE ITEMS ALL what do u want
 

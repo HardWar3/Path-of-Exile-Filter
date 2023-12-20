@@ -1459,6 +1459,12 @@ Show
 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 	
 Show
+	Rarity Rare
+	SynthesisedItem True
+	SetBorderColor 255 0 174
+    SetFontSize 40
+
+Show
 	Class Ring
 	BaseType "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring"
 	SetBorderColor 255 0 174
@@ -1694,10 +1700,10 @@ Hide
     SetBorderColor 255 0 174
 	#SetFontSize 40
 	
-Show
-	BaseType  "Gemini Claw"
-	SetBorderColor 255 0 174
-	SetFontSize 40
+# Show
+# 	BaseType  "Gemini Claw"
+# 	SetBorderColor 255 0 174
+# 	SetFontSize 40
 	
 Hide
 	BaseType "Penetrating Arrow Quiver" "Fleshripper" "Coronal Maul"
