@@ -1465,6 +1465,12 @@ Show
     SetFontSize 40
 
 Show
+	Rarity Rare
+	FracturedItem True
+	SetBorderColor 255 0 174
+    SetFontSize 40
+
+Show
 	Class Ring
 	BaseType "Composite Ring" "Manifold Ring" "Ratcheting Ring" "Helical Ring"
 	SetBorderColor 255 0 174
